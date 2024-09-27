@@ -5,7 +5,7 @@ class Product:
       self.price = price
 
   def get_price(self, quantity):
-          # sp23-bai-003
+        # sp23-bai-003
         try:
             if quantity <= 0:
                 raise ValueError("Number to be bought must be a positive integer.")
@@ -25,10 +25,8 @@ class Product:
 
         except ValueError as e:
             print(f"Error occurred: {e}")
-            return None 
-         
+            return None  
 #sp23-bai-002
-
   def make_purchase(self, quantity):
      try: 
         # if user entered less than 0 
